@@ -1,0 +1,49 @@
+.title>h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Bangers;
+    color: #12615b;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content {
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.cart-table>table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.cart-table img {
+    width: 200px;
+}
+
+.cart-table tr:nth-child(1) th {
+    border-top: solid #12615b;
+}
+
+.cart-table tr:nth-child(2) th {
+    border-top: solid #12615b;
+}
+
+.cart-table tr:nth-child(3) th {
+    border-top: solid #dddddd;
+}
+
+.cart-table tr:nth-child(4) th {
+    border-top: solid #dddddd;
+}
+
+.cart-table tr:nth-child(5) th {
+    border-top: solid #dddddd;
+    border-bottom: solid #dddddd;
+}
+
+th[rowspan="4"] {
+    border-left: solid #dddddd;
+    border-bottom: solid #dddddd;
+}

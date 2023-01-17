@@ -1,0 +1,86 @@
+.login-header>h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: ns-b;
+    color: #12615b;
+    font-size: 50px;
+    font-weight: 400;
+    border-bottom-style: solid;
+    border-bottom-color: #19bbae;
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.login-content {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.input-box {
+    text-align: center;
+}
+
+.input-box>div:nth-child(2n-1) {
+    margin-top: 30px;
+}
+
+.input-box input {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-color: #19bbae;
+}
+
+.btn-box {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 350px;
+    height: 60px;
+}
+
+.btn-box>input {
+    margin-bottom: 30px;
+    width: 350px;
+    height: 60px;
+    background-color: #19bbae;
+    border: 3px solid #19bbae;
+    color: #ffffff;
+    border-radius: 5px;
+    font-family: "ns_b";
+    font-size: 20px;
+}
+
+.sgin-up {
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.sgin-up>a {
+    width: 350px;
+    height: 60px;
+    background-color: #ffffff;
+    border: 3px solid #19bbae;
+    color: #19bbae;
+    border-radius: 5px;
+    font-family: "ns_b";
+    font-size: 20px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 60px;
+}
+
+.btn-box {
+    text-align: center;
+}
+
+.sgin-up {
+    text-align: center;
+}
+
+.link-wrap {
+    margin-top: 30px;
+    text-align: center;
+}

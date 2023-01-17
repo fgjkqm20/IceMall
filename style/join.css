@@ -1,0 +1,49 @@
+.title>h1 {
+    margin-top: 100px;
+    text-align: center;
+    font-family: Bangers;
+    color: #12615b;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.content {
+    width: 1200px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content>ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    overflow: hidden;
+    width: 900px;
+}
+
+.product {
+    width: 300px;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.product:hover .img-box {
+    box-shadow: 2px 2px 3px rgba(135, 139, 144, 0.5);
+}
+
+.product:hover .flavor {
+    text-decoration: underline;
+}
+
+.product>a {
+    text-align: center;
+    text-decoration: none;
+    color: #282828;
+    font-size: 22px;
+    font-weight: 900;
+}
+
+.img-box {
+    text-align: center;
+}

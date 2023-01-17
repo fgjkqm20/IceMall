@@ -1,0 +1,140 @@
+body {
+    margin: 0px;
+}
+
+.header-top-wrap {
+    height: 90px;
+    background-color: #eef5f4;
+    overflow: hidden;
+}
+
+.header-top {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.nav-wrap {
+    height: 50px;
+    background-color: #19bbae;
+    overflow: hidden;
+}
+
+.nav {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 250px;
+    height: 90px;
+    text-align: left;
+    float: left;
+    margin-right: 100px;
+}
+
+.logo>a {
+    color: #19bbae;
+    font-size: 80px;
+    text-decoration: underline;
+    font-family: "bangers";
+}
+
+.search {
+    float: left;
+    width: 590px;
+    height: 90px;
+    line-height: 90px;
+}
+
+input[name="search"] {
+    width: 504px;
+    height: 28px;
+    border-style: none;
+    border-bottom: 2px solid #84d8d1;
+    background-color: #eef5f4;
+}
+
+input[name="search"]:focus {
+    outline: none;
+    border-bottom: 2px solid #19bbae;
+}
+
+.search input[type="submit"] {
+    display: none;
+    float: left;
+}
+
+.search input[type="submit"]>img {
+    float: left;
+}
+
+.membership {
+    width: 236px;
+    height: 90px;
+    overflow: hidden;
+    float: right;
+}
+
+.membership a {
+    text-decoration: none;
+}
+
+.cart {
+    float: right;
+    margin: 10px;
+}
+
+.cart div {
+    font-size: 14px;
+    color: #282828;
+}
+
+.login {
+    float: right;
+    margin: 10px;
+}
+
+.login div {
+    font-size: 14px;
+    color: #282828;
+}
+
+.join {
+    float: right;
+    margin: 10px;
+}
+
+.join div {
+    font-size: 14px;
+    color: #282828;
+}
+
+.nav {
+    height: 50px;
+}
+
+.nav>ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+.nav>ul>li {
+    float: left;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.nav>ul>li>a {
+    color: #282828;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.nav>ul>li>a:hover {
+    color: white;
+    transition-duration: 0.5s;
+}
